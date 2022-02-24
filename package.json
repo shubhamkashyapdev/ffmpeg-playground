@@ -2,13 +2,15 @@
   "name": "video-to-gif-converter",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "frontend": "npm start --prefix frontend",
     "build": "npm run build --prefix frontend",
     "server": "nodemon server.js",
-    "dev": "concurrently \"npm run server \" \" npm run build \" \"npm run frontend \""
+    "dev": "concurrently \"npm run server \" \"npm run frontend \"",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix frontend && npm run build --prefix frontend"
+
   },
   "keywords": [],
   "author": "",
