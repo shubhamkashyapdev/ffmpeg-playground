@@ -1,12 +1,14 @@
-import React from "react";
-import styled from "styled-components";
-  
+import React from 'react';
+import styled from 'styled-components';
+
 export const Button = ({ convertToGif }) => {
-    return <Btn onClick={convertToGif}>Convert</Btn>;
-  };
+  return <Btn onClick={convertToGif}>Convert</Btn>;
+};
 
 const Btn = styled.button`
   background-color: #000;
+  align-self: center;
+  max-width: 150px;
   color: #fff;
   border-radius: 18px;
   border: 1px solid #000;
@@ -22,4 +24,3 @@ const Btn = styled.button`
     color: #efefef;
   }
 `;
-  
