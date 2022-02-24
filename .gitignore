@@ -1,0 +1,6 @@
+.env
+.env-local
+config/cofig.env
+
+node_modules
+frontend/node_modules
