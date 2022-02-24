@@ -2,12 +2,14 @@ const express = require("express")
 const multer = require("multer")
 const dotenv = require("dotenv")
 const colors = require("colors")
+const cors = require("cors")
 const path = require("path")
 
 const app = express()
 
 // middlewares
 dotenv.config()
+app.use(cors())
 
 app.use(function (req, res, next) {
   res.header("Cross-Origin-Embedder-Policy", "require-corp")
