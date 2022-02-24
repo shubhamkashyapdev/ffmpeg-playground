@@ -9,7 +9,7 @@ const app = express()
 
 // middlewares
 dotenv.config()
-app.use(cors())
+// app.use(cors())
 
 app.use(function (req, res, next) {
   res.header("Cross-Origin-Embedder-Policy", "require-corp")
