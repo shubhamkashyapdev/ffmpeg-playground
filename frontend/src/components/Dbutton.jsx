@@ -3,11 +3,12 @@ import styled from 'styled-components';
 
 export const Dbutton = ({ gif, download }) => {
   return (
-    <Btn href={gif} download onClick={(e) => download(e)}>
+    <Btn href={gif} download onClick={(e) => download(e, 'image.gif')}>
       Download
     </Btn>
   );
 };
+
 const Btn = styled.a`
   background-color: #000;
   max-width: 150px;
