@@ -14,6 +14,7 @@
     "js-file-download": "^0.4.12",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-icons": "^4.3.1",
     "react-router-dom": "^6.2.1",
     "socket.io-client": "^4.4.1",
     "styled-components": "^5.3.3"
@@ -27,5 +28,5 @@
     "chai": "^4.3.4",
     "prettier": "^2.2.1",
     "snowpack": "^3.8.8"
-  }  
+  }
 }

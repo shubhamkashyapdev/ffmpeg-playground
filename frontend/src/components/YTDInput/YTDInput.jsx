@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import { FaDownload } from 'react-icons/fa';
 
 const YTDInput = ({ handleChange }) => {
   return (
@@ -10,6 +11,10 @@ const YTDInput = ({ handleChange }) => {
         onChange={handleChange}
         onPaste={handleChange}
       />
+      <ButtonContainer>
+        <FaDownload color="white" />
+        <ButtonText>Start</ButtonText>
+      </ButtonContainer>
     </InputContainer>
   );
 };
@@ -37,6 +42,21 @@ const Input = styled.input`
   ::placeholder {
     text-align: center;
   }
+`;
+
+const ButtonContainer = styled.div`
+  background-color: #000;
+  display: flex;
+  gap: 5px;
+  width: 80px;
+  justify-content: space-around;
+  align-items: center;
+  border: 2px solid #000;
+`;
+
+const ButtonText = styled.p`
+  color: #fff;
+  font-size: 20px;
 `;
 
 export default YTDInput;
