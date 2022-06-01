@@ -1,0 +1,10 @@
+{
+  "imports": {
+    "@ffmpeg/ffmpeg": "./@ffmpeg/ffmpeg.js",
+    "axios": "./axios.js",
+    "react": "./react.js",
+    "react-dom": "./react-dom.js",
+    "react-router-dom": "./react-router-dom.js",
+    "styled-components": "./styled-components.js"
+  }
+}
