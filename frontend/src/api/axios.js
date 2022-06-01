@@ -1,5 +1,5 @@
 import axios from 'axios';
-export const url = 'https://vdo-to-gif.herokuapp.com';
+export const url = 'http://127.0.0.1:5000';
 const api = axios.create({
   baseURL: url,
 });

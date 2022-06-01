@@ -4,6 +4,7 @@
     "axios": "./axios.js",
     "react": "./react.js",
     "react-dom": "./react-dom.js",
+    "react-icons/fa": "./react-icons/fa.js",
     "react-router-dom": "./react-router-dom.js",
     "styled-components": "./styled-components.js"
   }
